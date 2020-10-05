@@ -104,7 +104,7 @@ public class Lab3 {
     public static void printData(String[] arr) throws IOException {
       
       PrintWriter outputText = new PrintWriter("Artists-WeekOf08302020.txt");
-      outputText.println("Artist in Regional Global Daily Top 200\n\n");
+      outputText.println("Artists in Regional Global Daily Top 200\n\n");
       
       //loop prints out each data stored in 2D array
       for(int i = 0; i < arr.length; i++) {
